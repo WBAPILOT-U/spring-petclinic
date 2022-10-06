@@ -21,12 +21,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 class WelcomeController {
-//TODO:
-//pstrzyri 100622
-    static String my-name;
-	
+
 	@GetMapping("/")
 	public String welcome() {
+		//TODO:
+		//pstrzyri 100622 added unused, uninitilized variable
+	    String my-name;
+			
 		return "welcome";
 	}
 
