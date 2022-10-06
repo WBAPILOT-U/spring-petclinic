@@ -24,9 +24,6 @@ class WelcomeController {
 
 	@GetMapping("/")
 	public String welcome() {
-		//pstrzyri 100622 modified the return string from welcome to what it is now
-		System.out.println("pstrzyri 100622 modified the return string from welcome to what it is now");
-		
 		return "Piotr, welcome!";
 	}
 
