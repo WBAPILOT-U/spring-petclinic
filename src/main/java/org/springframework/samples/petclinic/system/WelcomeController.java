@@ -25,10 +25,8 @@ class WelcomeController {
 	@GetMapping("/")
 	public String welcome() {
 		//TODO:
-		//pstrzyri 100622 added unused, uninitilized variable
-	    String my-name;
-			
-		return "welcome";
+		//pstrzyri 100622 modified the return string from welcome to what it is now
+		return "Piotr, welcome!";
 	}
 
 }
