@@ -26,6 +26,7 @@ class WelcomeController {
 	public String welcome() {
 		//TODO:
 		//pstrzyri 100622 modified the return string from welcome to what it is now
+		System.out.println("pstrzyri 100622 modified the return string from welcome to what it is now");
 		return "Piotr, welcome!";
 	}
 
